@@ -40,7 +40,7 @@ namespace OdeToFoodCodeAlong.Pages.Restaurants
                 return RedirectToPage("./NotFound");
             }
 
-            TempData["Message"] = $"{Restaurant.Name} deleted";
+            TempData["Message"] = $"{restaurant.Name} deleted";
             return RedirectToPage("./List");
         }
     }
